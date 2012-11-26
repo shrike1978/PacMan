@@ -341,7 +341,7 @@
   <project groups="default" name="PAC-man/android_packages_apps_Mms" path="packages/apps/Mms" />
   <project groups="default" name="PAC-man/android_packages_apps_Settings" path="packages/apps/Settings" />
   <project groups="default" name="PAC-man/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" />
-  <project groups="default" name="PAC-man/android_vendor_pac" path="vendor/pac" />
+  <project groups="default" name="shrike1978/android_vendor_pac" path="vendor/pac" revision="vigor"/>
   <project groups="default" name="PAC-man/android_prebuilt_linux-x86_toolchain_arm-gnueabihf-linaro-4.7" path="prebuilt/linux-x86/toolchain/arm-gnueabihf-linaro-4.7" revision="refs/heads/master" />
 
   <project groups="default" name="PAC-man/pac" path="pac" >
