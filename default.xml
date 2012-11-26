@@ -32,8 +32,6 @@
   <project groups="default" name="CyanogenMod/android_device_google_accessory_demokit" path="device/google/accessory/demokit" />
   <project groups="default" name="CyanogenMod/android_device_sample" path="device/sample" />
   <project groups="default" name="CyanogenMod/android_device_ti_panda" path="device/ti/panda" />
-  <project groups="default" name="Chad0989/device_htc_vigor" path="device/htc/vigor" />
-  <project groups="default" name="Chad0989/android_device_htc_msm8660-common" path="device/htc/msm8660-common" />
   <project groups="default" name="CyanogenMod/android_docs_source.android.com" path="docs/source.android.com" />
   <project groups="default" name="CyanogenMod/android_external_aac" path="external/aac" />
   <project groups="default" name="CyanogenMod/android_external_android-mock" path="external/android-mock" />
@@ -207,7 +205,6 @@
   <project groups="default" name="CyanogenMod/android_frameworks_support" path="frameworks/support" />
   <project groups="default" name="CyanogenMod/android_frameworks_testing" path="frameworks/testing" />
   <project groups="default" name="CyanogenMod/android_frameworks_wilhelm" path="frameworks/wilhelm" />
-  <project groups="default" path="kernel/htc/vigor-3.0" name="Chad0989/vigor_aosp_kernel" remote="github" revision="jellybean" />
   <project groups="default" name="CyanogenMod/android_gdk" path="gdk" />
   <project groups="default" name="CyanogenMod/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" />
   <project groups="default" name="CyanogenMod/android_hardware_cm" path="hardware/cm" />
@@ -297,7 +294,6 @@
   <project groups="default" name="CyanogenMod/android_system_su" path="system/su" />
   <project groups="default" name="CyanogenMod/android_system_vold" path="system/vold" />
   <project groups="default" name="CyanogenMod/android_vendor_cm" path="vendor/cm" />
-  <project groups="default" name="Chad0989/vendor_htc_vigor" path="vendor/htc/vigor" />
   <project groups="default" name="CyanogenMod/android_vendor_qcom_opensource_v8" path="vendor/qcom/opensource/v8" />
   <project groups="default" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" path="vendor/tmobile/libs/com.tmobile.themes" />
   <project groups="default" name="CyanogenMod/android_vendor_tmobile_products_themes" path="vendor/tmobile/products/themes" />
@@ -343,6 +339,12 @@
   <project groups="default" name="PAC-man/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" />
   <project groups="default" name="shrike1978/android_vendor_pac" path="vendor/pac" revision="vigor"/>
   <project groups="default" name="PAC-man/android_prebuilt_linux-x86_toolchain_arm-gnueabihf-linaro-4.7" path="prebuilt/linux-x86/toolchain/arm-gnueabihf-linaro-4.7" revision="refs/heads/master" />
+
+  <!-- HTC Rezound -->
+  <project groups="default" name="Chad0989/device_htc_vigor" path="device/htc/vigor" />
+  <project groups="default" name="Chad0989/android_device_htc_msm8660-common" path="device/htc/msm8660-common" />
+  <project groups="default" path="kernel/htc/vigor-3.0" name="Chad0989/vigor_aosp_kernel" remote="github" revision="jellybean" />
+  <project groups="default" name="Chad0989/vendor_htc_vigor" path="vendor/htc/vigor" />
 
   <project groups="default" name="PAC-man/pac" path="pac" >
     <copyfile dest="build-pac.sh" src="build.sh"/>
