@@ -327,7 +327,7 @@
   <!-- PA -->
   <project groups="default" name="ParanoidAndroid/android_external_doclava" path="external/doclava" />
   <project groups="default" name="ParanoidAndroid/cm_system_core" path="system/core" />
-  <project groups="default" name="shrike1978/android_vendor_pa" path="vendor/pa" revision="vigor"/>
+  <project groups="default" name="ParanoidAndroid/android_vendor_pa" path="vendor/pa" revision="d1ecd70a7f2f9965262b843360b021bc861fc036"/>
 
   <!-- PAC -->
   <project groups="default" name="PAC-man/android" path="android" />
