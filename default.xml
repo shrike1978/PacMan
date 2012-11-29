@@ -340,12 +340,6 @@
   <project groups="default" name="shrike1978/android_vendor_pac" path="vendor/pac" revision="vigor"/>
   <project groups="default" name="PAC-man/android_prebuilt_linux-x86_toolchain_arm-gnueabihf-linaro-4.7" path="prebuilt/linux-x86/toolchain/arm-gnueabihf-linaro-4.7" revision="refs/heads/master" />
 
-  <!-- HTC Rezound -->
-  <project groups="default" name="Chad0989/device_htc_vigor" path="device/htc/vigor" />
-  <project groups="default" name="Chad0989/android_device_htc_msm8660-common" path="device/htc/msm8660-common" />
-  <project groups="default" path="kernel/htc/vigor-3.0" name="Chad0989/vigor_aosp_kernel" remote="github" revision="jellybean" />
-  <project groups="default" name="Chad0989/vendor_htc_vigor" path="vendor/htc/vigor" />
-
   <project groups="default" name="PAC-man/pac" path="pac" >
     <copyfile dest="build-pac.sh" src="build.sh"/>
   </project>
