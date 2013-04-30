@@ -368,7 +368,7 @@
 
   <!-- PAC -->
   <project path="android" name="PAC-man/android" />
-  <project path="frameworks/base" name="PAC-man/android_frameworks_base" />
+  <project path="frameworks/base" name="shrike1978/android_frameworks_base" />
   <project path="frameworks/native" name="PAC-man/android_frameworks_native" />
   <project path="packages/apps/Camera" name="PAC-man/android_packages_apps_Camera" />
   <project path="packages/apps/Contacts" name="PAC-man/android_packages_apps_Contacts" />
