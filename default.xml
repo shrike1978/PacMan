@@ -265,15 +265,16 @@
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
-  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
+  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
+  <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
-  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery" name="CyanogenMod/android_packages_apps_Gallery" />
+  <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/Launcher2" name="CyanogenMod/android_packages_apps_Launcher2" />
@@ -360,19 +361,21 @@
 
   <!-- AOKP -->
   <project path="packages/apps/PerformanceControl" name="AOKP/packages_apps_PerformanceControl" revision="jb-mr1" />
+  <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" revision="jb-mr1" />
 
   <!-- PA -->
   <project path="external/doclava" name="ParanoidAndroid/android_external_doclava" revision="jellybean" />
   <project path="vendor/pa" name="ParanoidAndroid/android_vendor_pa" revision="e99a9b192386ca186dfe5a52126ce6fbe7da79a5" />
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" revision="jellybean" />
+  <project path="packages/apps/ParanoidWallpapers" name="ParanoidAndroid/android_packages_apps_ParanoidWallpapers" revision="jellybean" />
 
   <!-- PAC -->
   <project path="android" name="PAC-man/android" />
   <project path="frameworks/base" name="PAC-man/android_frameworks_base" />
   <project path="frameworks/native" name="PAC-man/android_frameworks_native" />
-  <project path="packages/apps/Camera" name="PAC-man/android_packages_apps_Camera" />
+  <project path="packages/apps/Calendar" name="PAC-man/android_packages_apps_Calendar" />
   <project path="packages/apps/Contacts" name="PAC-man/android_packages_apps_Contacts" />
-  <project path="packages/apps/Gallery2" name="PAC-man/android_packages_apps_Gallery2" />
+  <project path="packages/apps/Email" name="PAC-man/android_packages_apps_Email" />
   <project path="packages/apps/GooglePacman" name="PAC-man/android_packages_apps_GooglePacman" />
   <project path="packages/apps/Mms" name="PAC-man/android_packages_apps_Mms" />
   <project path="packages/apps/Phone" name="PAC-man/android_packages_apps_Phone" />
@@ -387,5 +390,9 @@
   <project path="pac" name="PAC-man/pac" >
     <copyfile dest="build-pac.sh" src="build.sh"/>
   </project>
+
+  <!-- Device extras: legacy support -->
+  <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" revision="cm-10.1_old" />
+  <project path="hardware/qcom/media-legacy" name="arco/android_hardware_qcom_media-legacy" revision="cm-10.1_old" />
 
 </manifest>
